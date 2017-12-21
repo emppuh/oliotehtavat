@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="205.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HelloworldController">
+	<children>
+		<Button fx:id="button" layoutX="37.0" layoutY="28.0" onAction="#handleButtonAction" text="Click me!">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+		<Label fx:id="label" layoutX="178.0" layoutY="28.0" minHeight="16" minWidth="69" prefHeight="59.0" prefWidth="153.0" text="Tähän tulee hello world">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="button2" layoutX="255.0" layoutY="106.0" mnemonicParsing="false" onAction="#writeText" text="Lisää teksti" />
+      <Label fx:id="label2" layoutX="13.0" layoutY="153.0" prefHeight="39.0" prefWidth="199.0" />
+      <TextField fx:id="text" layoutX="22.0" layoutY="106.0" onAction="#writeText" />
+	</children>
+</AnchorPane>
