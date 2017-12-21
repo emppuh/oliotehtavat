@@ -1,4 +1,5 @@
-/*viikko 7, tehtävät 1-4*/
+//Olio-ohjelmointi, Emmi Huovila
+//viikko 7, tehtävät 1-4
 package application;
 
 import javafx.scene.control.TextField;
